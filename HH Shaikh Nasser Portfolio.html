@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="icon" type="image/x-icon" href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/S.Nasser_Project_2026/Favicon/favicon.jpg.jpeg">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HH Shaikh Nasser Portfolio</title>
+    <link rel="stylesheet" href="./HH Shaikh Nasser Portfolio_files/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#home">Home</a>
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#achievements">Achievements</a>
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#media">Media</a>
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#quiz">Challenge</a>
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header id="home" class="full-page hero">
+        <div class="hero-content">
+            <p class="subtitle">Official Portfolio</p>
+            <h1>HH Shaikh Nasser</h1>
+            <a href="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/Untitled-1.html#achievements" class="main-btn">Discover Journey</a>
+        </div>
+    </header>
+
+    <section id="achievements" class="full-page">
+        <div class="container">
+            <h2 class="section-title">Royal Achievements</h2>
+            <h2 class="text">Sheikh Nasser bin Hamad Al Khalifa is an inspiring leader and a strong supporter of youth in
+                 Bahrain. He has achieved many successes and won top positions in international competitions. He is a prominent 
+                 figure in Bahrain, known for his leadership, achievements, and dedication to representing the country. 
+                 Here are some of Sheikh Nasser’s achievements:</h2>
+            <div class="image-grid">
+                <div class="img-box"><img src="./HH Shaikh Nasser Portfolio_files/_shaikh_nasser.jpg.jpeg" alt="Award 1"></div>
+                <div class="img-box"><img src="./HH Shaikh Nasser Portfolio_files/images1.jpg.jpeg" alt="Award 2"></div>
+                <div class="img-box"><img src="./HH Shaikh Nasser Portfolio_files/shaikh.nasser.jpg.jpeg" alt="Award 3"></div>
+                <div class="img-box"><img src="./HH Shaikh Nasser Portfolio_files/shaikh_nasser.jpg.jpeg" alt="Award 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="media" class="full-page dark-bg">
+        <div class="container">
+            <h2 class="section-title">Media Gallery</h2>
+            <div class="video-row">
+                <video controls="" src="S.Nasser_Project_2026/videos/nasser__video.mp4"></video>
+                <video controls="" src="S.Nasser_Project_2026/videos/nasser_video.mp4"></video>
+            </div>
+            
+            <div class="audio-box">
+                <img src="./HH Shaikh Nasser Portfolio_files/shabab_image.jpg.jpeg" class="audio-art" alt="Poem Cover">
+                <h3>The first supporter of youth</h3>
+                <audio controls="" src="S.Nasser_Project_2026/audio/nasser_audio.mp3.mpeg"></audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="full-page">
+        <div class="container">
+            <div class="quiz-card">
+                <h2 class="section-title">Knowledge Challenge</h2>
+                <p>What is the official team led by HH Shaikh Nasser?</p>
+                <div class="quiz-options">
+                    <button class="quiz-btn" onclick="handleQuiz(this, true)">Royal Endurance Team</button>
+                    <button class="quiz-btn" onclick="handleQuiz(this, false)">Blue Storm Team</button>
+                </div>
+                <div id="quiz-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="full-page">
+        <div class="contact-card">
+            <h2 class="section-title">Contact</h2>
+            <form onsubmit="event.preventDefault(); document.getElementById(&#39;status-msg&#39;).innerText=&#39;Message Sent!&#39;;">
+                <input type="text" placeholder="Name" required="">
+                <input type="email" placeholder="Email" required="">
+                <textarea placeholder="Message" rows="4"></textarea>
+                <button type="submit" class="main-btn">Send Message</button>
+                <p id="status-msg" style="color: green; margin-top: 10px;"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer><p>© 2026 | HH Shaikh Nasser Portfolio Project</p></footer>
+
+    <script src="file:///C:/Users/aesha/Desktop/202401229_Aysha%20janahi_CSSProject.zip/script.js"></script>
+
+</body></html>
